@@ -4,7 +4,7 @@ export default function
 () {
   return (
     <div>
-        <nav className='bg-blue-900 text-white'>
+        <nav className='bg-blue-900 text-white hidden md:block'>
             <ul className='flex px-10 py-4 space-x-10 justify-end '>
                 <li className='cursor-pointer'>Home</li>
                 <li className='cursor-pointer'>About</li>
