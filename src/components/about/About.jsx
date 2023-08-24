@@ -1,5 +1,5 @@
 import React from 'react'
-import Ajmal from '../../assests/AJMAL.png'
+import Ajmal from '../../assets/AJMAL.png'
 
 export default function 
 () {
