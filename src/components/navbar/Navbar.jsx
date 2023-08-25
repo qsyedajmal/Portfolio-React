@@ -17,7 +17,7 @@ export default function
     },
     {
       id: 3,
-      link: 'portfolio'
+      link: 'projects'
     },
     {
       id: 4,
@@ -41,7 +41,6 @@ export default function
       </div>
       
       <ul className="hidden md:flex">
-
       {links.map(
         ({id, link}) =><li key={id}
         className="px-4 cursor-pointer capitalize font-medium text-gray-400 hover:scale-105 duration-200"
@@ -63,13 +62,14 @@ export default function
               <ul className="flex flex-col justify-center items-center absolute text-gray-400
               top-0 left-0 w-full h-screen bg-gradient-to-b from-blue-900 to-gray-800 ">
         
-                {links.map(
+              {links.map(
                 ({id, link}) =><li key={id}
                 className="px-4 py-6 cursor-pointer capitalize text-3xl"
                 >
                 {link}
                 </li>
               )}
+
               </ul> 
       )}
     
