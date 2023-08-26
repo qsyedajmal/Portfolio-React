@@ -1,6 +1,6 @@
 import React from 'react'
 import Ajmal from '../../assets/AJMAL.png'
-import { MdOutlineKeyboardArrowRight } from "react-icons/md";
+// import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 export default function 
 () {
   return (
