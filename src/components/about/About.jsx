@@ -22,7 +22,7 @@ export default function
             </div>
         </main> */}
 
-        <div className='max-w-screen-lg  2xl:max-w-screen-xl flex flex-col px-4 justify-center   w-full h-full mx-auto'>
+        <div className='max-w-screen-lg  2xl:max-w-screen-xl flex flex-col p-4 justify-center   w-full h-full mx-auto'>
 
             <div className='pb-8'>
                <p className='text-4xl font-bold border-b-4 border-gray-400 inline-block'>About</p>

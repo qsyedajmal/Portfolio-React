@@ -78,9 +78,10 @@ export default function
     },
   ]
   return (
+    <div>
     <div name="skills" className='w-full h-screen bg-gradient-to-b from-gray-800 to-blue-900 text-gray-400'>
         
-        <div className='max-w-screen-lg  2xl:max-w-screen-xl  flex flex-col md:justify-center
+        <div className='max-w-screen-lg  2xl:max-w-screen-xl  flex flex-col md:justify-start
         mx-auto h-full w-full p-4'>
             <div className='pb-8 '>
                 <p className='text-4xl font-bold border-b-4 border-gray-400 inline-block '>Skills</p>
@@ -89,7 +90,7 @@ export default function
 
             <div className='w-full  grid grid-cols-2 sm:grid-cols-3 gap-8 px-12 py-8 sm:px-0 text-center '>
             {skills.map(({id, skill, title, style})=>(
-                         <div key={id} className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}>
+                         <div key={id} className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style} `}>
                          <img src={skill} alt="" className='w-20 mx-auto'/>
                          <p className='mt-4'>{title}</p>
                          </div>
@@ -103,6 +104,8 @@ export default function
 
 
 
+    </div>
+    <div className='w-full h-44 bg-gradient-to-b from-blue-900 to-gray-800 text-gray-400'></div>
     </div>
   )
 }
