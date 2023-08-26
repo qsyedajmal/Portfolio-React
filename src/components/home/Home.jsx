@@ -18,14 +18,14 @@ export default function
         mx-auto h-full'>
 
           <div className=' text-gray-400 flex flex-col justify-center h-full '>
-            <h2 className='px-4 text-4xl md:text-6xl 2xl:text-7xl font-bold text-white'>Full Stack Developer</h2>
+            <h2 className='px-4 text-4xl md:text-4xl  lg:text-6xl 2xl:text-7xl font-bold text-white'>Full Stack Developer</h2>
             <p className='px-4 py-4 max-w-md'>Adaptable engineer, offering extensive knowledge in Full Stack Development. 
               Ability to complete tasks on time in both individual and team settings. Seeking for opportunities to broaden my skills.
             </p> 
           </div>
 
           <div>
-            <img src={Ajmal} alt="" className='rounded-2xl mx-auto  w-2/3  md:ml-28 md:w-52 2xl:w-64' />
+            <img src={Ajmal} alt="" className='rounded-2xl mx-auto  w-2/3  md:ml-0 md:w-36 lg:ml-28 lg:w-52 2xl:w-64' />
           </div>
 
         </div>

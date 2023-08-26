@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { FaBars,FaTimes } from "react-icons/fa";
+import { Link } from "react-scroll";
 
 export default function 
 () {
@@ -21,16 +22,16 @@ export default function
     },
     {
       id: 4,
-      link: 'skill'
+      link: 'skills'
     },
     {
       id: 5,
-      link: 'certification'
-    },
-    {
-      id: 6,
       link: 'contact'
     },
+    // {
+    //   id: 6,
+    //   link: 'contact'
+    // },
   ]
     
   return (
@@ -45,7 +46,8 @@ export default function
         ({id, link}) =><li key={id}
         className="px-4 cursor-pointer capitalize font-medium text-gray-400 hover:scale-105 duration-200"
         >
-        {link}
+        <Link to={link} smooth duration={500}>{link}</Link>
+        
         </li>
       )}
       </ul>
@@ -66,7 +68,7 @@ export default function
                 ({id, link}) =><li key={id}
                 className="px-4 py-6 cursor-pointer capitalize text-3xl"
                 >
-                {link}
+                 <Link to={link} smooth duration={500}>{link}</Link>
                 </li>
               )}
 

@@ -30,10 +30,11 @@ export default function
     },
   ]
   return (
-    <div name="projects" className='bg-gradient-to-b  from-blue-900 to-gray-800 w-full md:h-screen  text-gray-400'>
-      
+    <div>
+    {/* <div name="projects" className='bg-gradient-to-b  from-blue-900 via-blue-900 to-gray-600 md:bg-gradient-to-b  md:from-blue-900 md:to-gray-800 w-full md:h-screen  text-gray-400'> */}
+    <div name="projects" className='bg-gradient-to-b  from-blue-900 to-gray-800 w-full md:h-screen  text-gray-400'>    
       {/* removed justify center */}
-      <div className='max-w-screen-lg  2xl:max-w-screen-xl p-4 flex flex-col  mx-auto w-full h-full'>
+      <div className='pt-28 md:pt-0 max-w-screen-lg  2xl:max-w-screen-xl p-4 flex flex-col justify-center mx-auto w-full h-full'>
 
        <div className='pb-8'>
         <p className='text-4xl font-bold border-b-4 border-gray-400 inline-block'>Projects</p>
@@ -53,14 +54,10 @@ export default function
          </div>
         ))
        }  
-        </div> 
-
-    
-
-
-       
+        </div>     
       </div>
-
+    </div>
+    {/* <div className='w-full h-48 bg-gradient-to-b from-gray-600 to-gray-800 text-gray-400 md:hidden'></div> */}
     </div>
   )
 }
