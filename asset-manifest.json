@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Portfolio-React/static/css/main.eb54ccf9.css",
+    "main.js": "/Portfolio-React/static/js/main.4398b227.js",
+    "static/media/project-2.png": "/Portfolio-React/static/media/project-2.676930894d856abc1fa0.png",
+    "static/media/AJMAL.png": "/Portfolio-React/static/media/AJMAL.9624c13a4e9a79bedaf9.png",
+    "static/media/SYED_AJMAL_RESUME.pdf": "/Portfolio-React/static/media/SYED_AJMAL_RESUME.52e497cbc7ef3942bd59.pdf",
+    "static/media/project-1.png": "/Portfolio-React/static/media/project-1.a28007d23c199bb472ac.png",
+    "static/media/project-3.png": "/Portfolio-React/static/media/project-3.e223745a12c07e10247f.png",
+    "static/media/react.png": "/Portfolio-React/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/spring.png": "/Portfolio-React/static/media/spring.622929a848204250a68e.png",
+    "static/media/github.png": "/Portfolio-React/static/media/github.3b9e32903aa89111875d.png",
+    "static/media/mysql.png": "/Portfolio-React/static/media/mysql.b6a64452e138e3db424c.png",
+    "static/media/html.png": "/Portfolio-React/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/tailwind.png": "/Portfolio-React/static/media/tailwind.e47ac876b8d4d0bba47a.png",
+    "static/media/css.png": "/Portfolio-React/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/java.png": "/Portfolio-React/static/media/java.a6234aacd4d8fb1edc23.png",
+    "static/media/javascript.png": "/Portfolio-React/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "index.html": "/Portfolio-React/index.html",
+    "main.eb54ccf9.css.map": "/Portfolio-React/static/css/main.eb54ccf9.css.map",
+    "main.4398b227.js.map": "/Portfolio-React/static/js/main.4398b227.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eb54ccf9.css",
+    "static/js/main.4398b227.js"
+  ]
+}
