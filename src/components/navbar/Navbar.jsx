@@ -68,7 +68,7 @@ export default function
                 ({id, link}) =><li key={id}
                 className="px-4 py-6 cursor-pointer capitalize text-3xl"
                 >
-                 <Link to={link} smooth duration={500}>{link}</Link>
+                 <Link onClick={()=>setNav(!nav)} to={link} smooth duration={500}>{link}</Link>
                 </li>
               )}
 
@@ -81,3 +81,4 @@ export default function
     </div>
   )
 }
+

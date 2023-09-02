@@ -12,7 +12,7 @@ import bootstrap from '../../assets/skills/bootstrap.png'
 // import html from '../../assets/skills/'
 
 
-export default function 
+export default function Skills
 () {
 
   const skills =[
@@ -105,7 +105,7 @@ export default function
 
 
     </div>
-    <div className='w-full h-48 bg-gradient-to-b from-blue-900 to-gray-800 text-gray-400'></div>
+    <div className='block w-full h-96 bg-gradient-to-b from-blue-900 to-blue-900 text-gray-400 md:hidden lg:block 2xl:hidden'></div>
     </div>
   )
 }

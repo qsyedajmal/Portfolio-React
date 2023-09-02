@@ -11,22 +11,26 @@ export default function
     {
       id:1,
       src:project1 ,
-      pname:"To-Do List"
+      pname:"To-Do List",
+      href:"https://github.com/qsyedajmal/To-Do-App"
     },
     {
       id:2,
       src:project2 ,
       pname:"Weather Application" ,
+      href:"https://github.com/qsyedajmal/Weather-App"
     },
     {
       id:3,
       src:project3 ,
       pname:"Quiz RESTful API (Monolithic)" ,
+      href:'https://github.com/qsyedajmal/Quiz-App'
     },
     {
       id:4,
       src:project4 ,
       pname:"Quiz RESTful API (Microservices)" ,
+      href:'https://github.com/qsyedajmal/Quiz-App-Microservice'
     },
   ]
   return (
@@ -44,12 +48,12 @@ export default function
       <div  className='grid sm:grid-cols-2  md:grid-cols-4 gap-8 2xl:gap-8 xl:gap-6 px-12 sm:px-0'>
 
        {
-        projects.map( ({id,src,pname}) =>(
+        projects.map( ({id,src,pname,href}) =>(
           <div key={id} className='  shadow-md shadow-gray-600 rounded-lg '>
           <img src={src} alt="project" className='rounded-md duration-200 hover:scale-105'/>
            <div className='flex flex-col justify-center items-center'>
             <p className='py-3 text-lg font-extrabold text-center'>{pname}</p>
-            <button className='w-1/2 py-3 duration-200 hover:scale-105'>Code</button>
+            <a className='w-1/2 py-3 duration-200 hover:scale-105 w-fit' href={href}>Code</a>
            </div>
          </div>
         ))

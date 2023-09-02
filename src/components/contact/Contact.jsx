@@ -4,7 +4,7 @@ export default function
 () {
   return (
     <div>
-    <div name="contact" className='w-full h-screen bg-gradient-to-b from-gray-800 to-blue-900 text-gray-400'>
+    <div name="contact" className='w-full h-screen bg-gradient-to-b from-blue-900 to-gray-800 lg:from-blue-900 lg:to-blue-900 2xl:from-blue-900 2xl:to-gray-800 text-gray-400'>
         <div className='max-w-screen-lg  2xl:max-w-screen-xl flex flex-col p-4 justify-center  w-full h-full mx-auto md:pt-[17rem] 2xl:pt-0'>
             <div className='pb-8'>
                 <p className='text-4xl font-bold border-b-4 border-gray-400 inline-block '>Contact</p>
@@ -16,12 +16,12 @@ export default function
                     <input type="text" name="name" placeholder='Enter your name' className='p-2 bg-transparent border-2 rounded-md' />
                     <input type="email" name="email" placeholder='Enter your email' className='p-2 my-4 bg-transparent border-2 rounded-md' />
                     <textarea name="message" rows="10" placeholder='Enter your message' className='p-2 bg-transparent border-2 rounded-md'></textarea>
-                    <button className='bg-gradient-to-b from-slate-800 to-slate-500 px-6 py-3 my-8 mx-auto rounded-md hover:scale-110 duration-300 text-white'>Submit</button>
+                    <button className='bg-gradient-to-b from-slate-800 to-slate-500 px-6  py-3 my-8 w-fit mx-auto rounded-md hover:scale-110 duration-300 text-white'>Submit</button>
                 </form>
             </div>
         </div>
     </div>
-    <div className='hidden lg:block 2xl:hidden w-full h-48 bg-gradient-to-b from-blue-900 to-blue-900 text-gray-400'></div>
+    <div className='hidden lg:block 2xl:hidden w-full h-48 bg-gradient-to-b from-blue-900 to-gray-800 text-gray-800'></div>
     </div>
   )
 }

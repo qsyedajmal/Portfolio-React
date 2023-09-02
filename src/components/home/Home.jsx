@@ -1,19 +1,14 @@
 import React from 'react'
 import Ajmal from '../../assets/AJMAL.png'
+import { IoMdDownload } from "react-icons/io";
+import Resume from '../../assets/resume/SYED_AJMAL_RESUME.pdf'
+
 // import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 export default function 
 () {
   return (
     <div name="home" className='h-screen w-full bg-gradient-to-b from-blue-900 to-gray-800 '>
-        {/* <main className='bg-blue-50 flex justify-start'>
-            <div>
-            
-             <div className="text-6xl pl-10 py-10 ">JAVA WEB DEVELOPER</div>
-                <div className="text-6xl ml-32 pt-24">JAVA WEB DEVELOPER</div>
-                <div className="text-6xl ml-32 pt-10">Hello Iam Q SYED AJMAL</div>
-                <MdOutlineKeyboardArrowRight/>
-            </div>
-        </main> */}
+
         <div className='max-w-screen-lg  2xl:max-w-screen-xl  flex flex-col justify-center items-center md:flex-row
         mx-auto h-full'>
 
@@ -22,6 +17,10 @@ export default function
             <p className='px-4 py-4 max-w-md'>Adaptable engineer, offering extensive knowledge in Full Stack Development. 
               Ability to complete tasks on time in both individual and team settings. Seeking for opportunities to broaden my skills.
             </p> 
+            {/* <button className='bg-gradient-to-b from-slate-800 to-slate-500 px-6 py-3  mx-auto lg:mx-3 lg:w-52 rounded-md hover:scale-110 duration-300 text-white'>Download Resume
+            <span><IoMdDownload/></span></button> */}
+            <a className='bg-gradient-to-b from-slate-800 to-slate-500 px-6 py-3 w-fit mx-auto md:mx-3 rounded-md  text-white flex items-center' href={Resume} download>Download Resume
+            <span><IoMdDownload size={20} className='ml-2'/></span></a>
           </div>
 
           <div>
