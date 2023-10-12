@@ -119,7 +119,7 @@ export default function Skills
 
 
     </div>
-    <div className='block w-full h-96 bg-gradient-to-b from-blue-900 to-blue-900 text-gray-400 md:hidden lg:block 2xl:hidden'></div>
+    <div className='block w-full h-96 bg-gradient-to-b from-blue-900 to-blue-900 text-gray-400 md:hidden lg:block 2xl:block'></div>
     </div>
   )
 }
