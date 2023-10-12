@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio-React/static/css/main.1391ac83.css",
-    "main.js": "/Portfolio-React/static/js/main.26a4ed50.js",
+    "main.css": "/Portfolio-React/static/css/main.35b0649e.css",
+    "main.js": "/Portfolio-React/static/js/main.b4085105.js",
     "static/media/project-2.png": "/Portfolio-React/static/media/project-2.676930894d856abc1fa0.png",
     "static/media/AJMAL.png": "/Portfolio-React/static/media/AJMAL.9624c13a4e9a79bedaf9.png",
     "static/media/SYED_AJMAL_RESUME.pdf": "/Portfolio-React/static/media/SYED_AJMAL_RESUME.52e497cbc7ef3942bd59.pdf",
@@ -17,11 +17,11 @@
     "static/media/java.png": "/Portfolio-React/static/media/java.a6234aacd4d8fb1edc23.png",
     "static/media/javascript.png": "/Portfolio-React/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/Portfolio-React/index.html",
-    "main.1391ac83.css.map": "/Portfolio-React/static/css/main.1391ac83.css.map",
-    "main.26a4ed50.js.map": "/Portfolio-React/static/js/main.26a4ed50.js.map"
+    "main.35b0649e.css.map": "/Portfolio-React/static/css/main.35b0649e.css.map",
+    "main.b4085105.js.map": "/Portfolio-React/static/js/main.b4085105.js.map"
   },
   "entrypoints": [
-    "static/css/main.1391ac83.css",
-    "static/js/main.26a4ed50.js"
+    "static/css/main.35b0649e.css",
+    "static/js/main.b4085105.js"
   ]
 }
