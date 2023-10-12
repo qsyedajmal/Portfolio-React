@@ -4,7 +4,7 @@ export default function
 () {
   return (
     <div>
-    <div name="contact" className='w-full h-screen bg-gradient-to-b from-blue-900 to-gray-800 lg:from-blue-900 lg:to-blue-900 2xl:from-blue-900 2xl:to-gray-800 text-gray-400'>
+    <div name="contact" className='w-full h-screen lg:h-[50vmax] bg-gradient-to-b from-blue-900 to-gray-800 lg:from-blue-900 lg:to-blue-900 2xl:from-blue-900 2xl:to-gray-800 text-gray-400'>
         <div className='max-w-screen-lg  2xl:max-w-screen-xl flex flex-col p-4 justify-center  w-full h-full mx-auto md:pt-[17rem] 2xl:pt-0'>
             <div className='pb-8'>
                 <p className='text-4xl font-bold border-b-4 border-gray-400 inline-block '>Contact</p>

@@ -7,7 +7,7 @@ import Resume from '../../assets/resume/SYED_AJMAL_RESUME.pdf'
 export default function 
 () {
   return (
-    <div name="home" className='h-screen w-full bg-gradient-to-b from-blue-900 to-gray-800 '>
+    <div name="home" className='h-screen lg:h-[50vmax] w-full bg-gradient-to-b from-blue-900 to-gray-800 '>
 
         <div className='max-w-screen-lg  2xl:max-w-screen-xl  flex flex-col justify-center items-center md:flex-row
         mx-auto h-full'>

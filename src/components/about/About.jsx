@@ -4,7 +4,7 @@ import React from 'react'
 export default function 
 () {
   return (
-    <div name="about" className='w-full h-screen bg-gradient-to-b from-gray-800 to-blue-900 text-gray-400'>
+    <div name="about" className='w-full h-screen lg:h-[50vmax] bg-gradient-to-b from-gray-800 to-blue-900 text-gray-400'>
   
         {/* <main className='bg-blue-50 grid grid-cols-1 lg:flex lg:justify-around'>
 

@@ -36,7 +36,7 @@ export default function
   return (
     <div>
     {/* <div name="projects" className='bg-gradient-to-b  from-blue-900 via-blue-900 to-gray-600 md:bg-gradient-to-b  md:from-blue-900 md:to-gray-800 w-full md:h-screen  text-gray-400'> */}
-    <div name="projects" className='bg-gradient-to-b  from-blue-900 to-gray-800 w-full md:h-screen  text-gray-400'>    
+    <div name="projects" className='bg-gradient-to-b  from-blue-900 to-gray-800 w-full md:h-screen  text-gray-400  lg:h-[50vmax]'>    
       {/* removed justify center */}
       <div className='pt-28 md:pt-0 max-w-screen-lg  2xl:max-w-screen-xl p-4 flex flex-col justify-center mx-auto w-full h-full'>
 
