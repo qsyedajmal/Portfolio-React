@@ -9,8 +9,6 @@ import reactjs from '../../assets/skills/react.png'
 import tailwind from '../../assets/skills/tailwind.png'
 import mysql from '../../assets/skills/mysql.png'
 import bootstrap from '../../assets/skills/bootstrap.png'
-import docker from '../../assets/skills/docker.png'
-import materialui from '../../assets/skills/materialui.png'
 // import html from '../../assets/skills/'
 
 
@@ -68,24 +66,12 @@ export default function Skills
     },
     {
       id:9,
-      skill:docker,
-      title:"Docker",
-      style:'shadow-blue-500'
-    },
-    {
-      id:10,
       skill:tailwind,
       title:"Tailwind CSS",
       style:'shadow-sky-400'
     },
     {
-      id:11,
-      skill:materialui,
-      title:"Material UI",
-      style:'shadow-blue-700'
-    },
-    {
-      id:12,
+      id:10,
       skill:bootstrap,
       title:"Bootstrap",
       style:'shadow-purple-500'
@@ -119,7 +105,7 @@ export default function Skills
 
 
     </div>
-    <div className='block w-full h-96 bg-gradient-to-b from-blue-900 to-blue-900 text-gray-400 md:hidden lg:block 2xl:block'></div>
+    <div className='block w-full h-96 bg-gradient-to-b from-blue-900 to-blue-900 text-gray-400 md:hidden lg:block 2xl:hidden'></div>
     </div>
   )
 }
